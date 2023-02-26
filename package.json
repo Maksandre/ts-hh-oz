@@ -1,12 +1,11 @@
 {
-  "name": "dex",
+  "name": "dapp-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
-    "testNode": "npx hardhat node"
+    "node": "npx hardhat node"
   },
   "keywords": [],
   "author": "",

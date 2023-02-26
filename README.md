@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# TypeScript HardHat OpenZeppelin template
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project provides a set of tools for developing Ethereum smart contracts.
 
-Try running some of the following tasks:
+## Getting Started
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
 ```
+npm install
+```
+
+ After installing the dependencies, you can run the following scripts: 
+
+ - `test`: Runs tests using Hardhat's test runner  
+ - `compile`: Compiles your smart contracts  
+ - `node`: Runs a local development node
+
+## Forking from mainnet
+
+https://hardhat.org/hardhat-network/docs/guides/forking-other-networks
+
+1. Go to alchemy.com and get mainnet API key
+2. Set it to `ALCHEMY_KEY` environment variable
+3. Run node: `npm run node`
